@@ -9,7 +9,7 @@
     <h1>Are you php?</h1>
     <p>PHP by default sending HTML</p>
     <?php 
-    echo "hello world"
+    echo "hello world" // Server side rendering
     ?>
   </body>
 </html>
