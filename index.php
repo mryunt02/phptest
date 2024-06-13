@@ -6,10 +6,18 @@
     <title>Document</title>
   </head>
   <body>
-    <h1>Are you php?</h1>
-    <p>PHP by default sending HTML</p>
-    <?php 
-    echo "hello world" // Server side rendering
-    ?>
+    <h1>Cryptocurrency Converter</h1>
+    <form action="convert.php">
+    <label for="amount" >Amount</label>
+    <input  id="amount" name="amount"/>
+    <label for="crypto">Cryptocurrency</label>
+    <select id="crypto" name="crypto">
+      <option value="BTC">Bitcoin</option>
+      <option value="ETH">Ethereum</option>
+      <option value="XRP">Ripple</option>
+      <option value="LTC">Litecoin</option>
+    </select>
+    <button id="btn" type="submit" >Submit</button>
+    </form>
   </body>
 </html>
