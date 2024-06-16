@@ -17,7 +17,6 @@
   //include "classes/converter.php"; // include the Converter class
   $converter = new CryptoConverter($crypto);
   $result = $converter->convert($amount); // call the convert method and pass the amount as an argument
-  
     echo "<p>You want to convert $amount $crypto.</p>"; // display the amount and the cryptocurrency
     echo "<h2>You have $result USD</h2>"; // display the result
   }
